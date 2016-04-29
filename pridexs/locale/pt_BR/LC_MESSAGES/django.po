@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-28 23:32+0000\n"
+"POT-Creation-Date: 2016-04-29 19:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,61 +23,67 @@ msgid "Pridexs - Contact"
 msgstr "Pridexs - Contato"
 
 #: mainwebsite/templates/mainwebsite/contact.html:56
-#: mainwebsite/templates/mainwebsite/index.html:50
+#: mainwebsite/templates/mainwebsite/index.html:48
 msgid "Home"
 msgstr "Início"
 
 #: mainwebsite/templates/mainwebsite/contact.html:57
-#: mainwebsite/templates/mainwebsite/index.html:51
+#: mainwebsite/templates/mainwebsite/index.html:49
 msgid "Contact"
 msgstr "Contato"
 
 #: mainwebsite/templates/mainwebsite/contact.html:65
-#: mainwebsite/templates/mainwebsite/index.html:59
+#: mainwebsite/templates/mainwebsite/index.html:57
 msgid "Language:"
 msgstr "Língua:"
 
-#: mainwebsite/templates/mainwebsite/contact.html:66
-#: mainwebsite/templates/mainwebsite/index.html:60 pridexs/settings.py:135
+#: mainwebsite/templates/mainwebsite/contact.html:69
+#: mainwebsite/templates/mainwebsite/index.html:61 pridexs/settings.py:138
 msgid "English"
 msgstr "English"
 
-#: mainwebsite/templates/mainwebsite/contact.html:67
-#: mainwebsite/templates/mainwebsite/index.html:61
+#: mainwebsite/templates/mainwebsite/contact.html:75
+#: mainwebsite/templates/mainwebsite/index.html:67
 msgid "Português"
 msgstr "Português"
 
-#: mainwebsite/templates/mainwebsite/contact.html:76
-msgid "E-mail sent!"
+#: mainwebsite/templates/mainwebsite/contact.html:86
+#, fuzzy
+#| msgid "E-mail sent!"
+msgid "Email sent!"
 msgstr "Email enviado!"
 
-#: mainwebsite/templates/mainwebsite/contact.html:80
+#: mainwebsite/templates/mainwebsite/contact.html:90
+msgid "Error sending your Email :("
+msgstr "Ocorreu um erro ao enviar seu e-mail :("
+
+#: mainwebsite/templates/mainwebsite/contact.html:94
 msgid "Contact me!"
 msgstr "Contate-me!"
 
-#: mainwebsite/templates/mainwebsite/contact.html:88
-#: mainwebsite/templates/mainwebsite/contact.html:89
+#: mainwebsite/templates/mainwebsite/contact.html:102
+#: mainwebsite/templates/mainwebsite/contact.html:103
 msgid "Name"
 msgstr "Nome"
 
-#: mainwebsite/templates/mainwebsite/contact.html:93
+#: mainwebsite/templates/mainwebsite/contact.html:107
 msgid "Email Address"
 msgstr "Endereço de email"
 
-#: mainwebsite/templates/mainwebsite/contact.html:94
+#: mainwebsite/templates/mainwebsite/contact.html:108
 msgid "Email"
 msgstr "Email"
 
-#: mainwebsite/templates/mainwebsite/contact.html:98
-#: mainwebsite/templates/mainwebsite/contact.html:99
+#: mainwebsite/templates/mainwebsite/contact.html:112
+#: mainwebsite/templates/mainwebsite/contact.html:113
 msgid "Subject"
 msgstr "Assunto"
 
-#: mainwebsite/templates/mainwebsite/contact.html:103
+#: mainwebsite/templates/mainwebsite/contact.html:117
 msgid "Your secrets"
 msgstr "Seus segredos"
 
-#: mainwebsite/templates/mainwebsite/contact.html:107
+#: mainwebsite/templates/mainwebsite/contact.html:121
 msgid "Send"
 msgstr "Enviar"
 
@@ -85,7 +91,7 @@ msgstr "Enviar"
 msgid "Pridexs - Home"
 msgstr "Pridexs - Início"
 
-#: mainwebsite/templates/mainwebsite/index.html:67
+#: mainwebsite/templates/mainwebsite/index.html:75
 #, python-format
 msgid ""
 "Hi! I'm Alexandre 'Pridexs' Maros. Computer Science student at %(udesc_url)s "
@@ -94,11 +100,11 @@ msgstr ""
 "Ola! Sou Alexandre 'Pridexs' Maros. Cientista da Computação na %(udesc_url)s "
 "que gosta de experimentar com coisas."
 
-#: mainwebsite/templates/mainwebsite/index.html:84
+#: mainwebsite/templates/mainwebsite/index.html:92
 msgid "About me"
 msgstr "Sobre mim"
 
-#: mainwebsite/templates/mainwebsite/index.html:85
+#: mainwebsite/templates/mainwebsite/index.html:93
 msgid ""
 "Currently studying Computer Science at UDESC - Santa Catarina, Brazil. I "
 "also studied abroad for one year at the Dublin Institute of Technology in "
@@ -108,7 +114,7 @@ msgstr ""
 "Brasil. Eu também estudei fora por um ano no Instituto de Tecnologia de "
 "Dublin em Dublin, Irlanda pelo programa Ciência sem Fronteiras."
 
-#: mainwebsite/templates/mainwebsite/index.html:86
+#: mainwebsite/templates/mainwebsite/index.html:94
 #, python-format
 msgid ""
 "I love Computer Science and I am always trying to create something new, "
@@ -123,11 +129,11 @@ msgstr ""
 "uma conferida no meu %(github_url)s ou meu %(blog_url)s pra alguns pequenos "
 "projetos ~talvez~ interessantes."
 
-#: mainwebsite/templates/mainwebsite/index.html:88
+#: mainwebsite/templates/mainwebsite/index.html:96
 msgid "Curent Projects"
 msgstr "Projetos Atuais"
 
-#: mainwebsite/templates/mainwebsite/index.html:89
+#: mainwebsite/templates/mainwebsite/index.html:97
 msgid ""
 "Here are a few projects that I am working on. They may not have information "
 "about them (I will add info as soon as possible!)"
@@ -135,27 +141,27 @@ msgstr ""
 "Aqui estão alguns projetos que estou atualmente trabalhando. Talvez eles não "
 "tenham muita informação (Adicionarei info assim que eu puder!)"
 
-#: mainwebsite/templates/mainwebsite/index.html:92
+#: mainwebsite/templates/mainwebsite/index.html:100
 msgid "Blog"
 msgstr "Blog"
 
-#: mainwebsite/templates/mainwebsite/index.html:93
+#: mainwebsite/templates/mainwebsite/index.html:101
 msgid "A place to write about whatever comes to my mind."
 msgstr "Um lugar para escrever sobre qualquer coisa que vier a minha mente."
 
-#: mainwebsite/templates/mainwebsite/index.html:95
+#: mainwebsite/templates/mainwebsite/index.html:103
 msgid "Visual Identity"
 msgstr "Identidade Visual"
 
-#: mainwebsite/templates/mainwebsite/index.html:96
+#: mainwebsite/templates/mainwebsite/index.html:104
 msgid "The visual identity guideline to pridexs.com and blog.pridexs.com"
 msgstr "Uma diretriz da identidade visual de pridexs.com e blog.pridexs.com"
 
-#: mainwebsite/templates/mainwebsite/index.html:100
+#: mainwebsite/templates/mainwebsite/index.html:108
 msgid "Extracting MiBand data"
 msgstr "Extraindo os dados da MiBand"
 
-#: mainwebsite/templates/mainwebsite/index.html:101
+#: mainwebsite/templates/mainwebsite/index.html:109
 msgid ""
 "A way to extract Xiaomi's MiBand data from the app to use it in data "
 "visualization, etc."
@@ -163,15 +169,15 @@ msgstr ""
 "Uma maneira para extrair os dados da MiBand da Xiaomi pelo aplicativo para "
 "usar em visualização de dados, etc."
 
-#: mainwebsite/templates/mainwebsite/index.html:103
+#: mainwebsite/templates/mainwebsite/index.html:111
 msgid "Life Goal Website"
 msgstr "Site de Objetivos de Vida"
 
-#: mainwebsite/templates/mainwebsite/index.html:104
+#: mainwebsite/templates/mainwebsite/index.html:112
 msgid "A way to keep track of your goals. Not yet available."
 msgstr ""
 "Uma maneira de manter o controle de seus objetivos. Ainda não disponível."
 
-#: pridexs/settings.py:136
+#: pridexs/settings.py:139
 msgid "Portuguese"
 msgstr "Português"
