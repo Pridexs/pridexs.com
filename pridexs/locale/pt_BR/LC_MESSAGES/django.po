@@ -111,7 +111,7 @@ msgid ""
 "Dublin, Ireland throug the Science Without Borders programme."
 msgstr ""
 "Atualmente estudando Ciência da Computação na UDESC - Santa Catarina, "
-"Brasil. Eu também estudei fora por um ano no Instituto de Tecnologia de "
+"Brasil. Também estudei fora por um ano no Instituto de Tecnologia de "
 "Dublin em Dublin, Irlanda pelo programa Ciência sem Fronteiras."
 
 #: mainwebsite/templates/mainwebsite/index.html:94
@@ -166,7 +166,7 @@ msgid ""
 "A way to extract Xiaomi's MiBand data from the app to use it in data "
 "visualization, etc."
 msgstr ""
-"Uma maneira para extrair os dados da MiBand da Xiaomi pelo aplicativo para "
+"Uma maneira de extrair os dados da MiBand da Xiaomi pelo aplicativo para "
 "usar em visualização de dados, etc."
 
 #: mainwebsite/templates/mainwebsite/index.html:111

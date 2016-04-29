@@ -1,2 +1,4 @@
 __pycache__/
 pridexsenv/
+/pridexs/static/
+pridexs.sock
