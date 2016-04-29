@@ -27,3 +27,6 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     url(r'', include('mainwebsite.urls')),
 )
+
+handler404 = 'mainwebsite.views.handler404'
+handler500 = 'mainwebsite.views.handler500'

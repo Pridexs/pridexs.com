@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-29 19:12+0000\n"
+"POT-Creation-Date: 2016-04-29 22:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: mainwebsite/templates/404.html:10 mainwebsite/templates/500.html.py:10
+#: mainwebsite/templates/mainwebsite/index.html:10
+msgid "Pridexs - Home"
+msgstr "Pridexs - Início"
+
+#: mainwebsite/templates/404.html:47 mainwebsite/templates/500.html.py:48
+#: mainwebsite/templates/mainwebsite/contact.html:65
+#: mainwebsite/templates/mainwebsite/index.html:57
+msgid "Language:"
+msgstr "Língua:"
+
+#: mainwebsite/templates/404.html:51 mainwebsite/templates/500.html.py:52
+#: mainwebsite/templates/mainwebsite/contact.html:69
+#: mainwebsite/templates/mainwebsite/index.html:61 pridexs/settings.py:138
+msgid "English"
+msgstr "English"
+
+#: mainwebsite/templates/404.html:57 mainwebsite/templates/500.html.py:58
+#: mainwebsite/templates/mainwebsite/contact.html:75
+#: mainwebsite/templates/mainwebsite/index.html:67
+msgid "Português"
+msgstr "Português"
+
+#: mainwebsite/templates/404.html:64
+msgid "Woops :("
+msgstr "Woops :("
+
+#: mainwebsite/templates/404.html:65
+msgid "We could not find the page you requested."
+msgstr "Não conseguimos achar a página que você pediu."
+
+#: mainwebsite/templates/500.html:65
+msgid "Oh no!"
+msgstr "Ah não!"
+
+#: mainwebsite/templates/500.html:66
+msgid "Looks like something went terribly wrong!"
+msgstr "Parece que algo deu muito errado!"
+
+#: mainwebsite/templates/500.html:67
+msgid "Please try again later or contact me."
+msgstr "Por favor, tente novamente mais tarde ou contate-me."
 
 #: mainwebsite/templates/mainwebsite/contact.html:10
 msgid "Pridexs - Contact"
@@ -31,21 +74,6 @@ msgstr "Início"
 #: mainwebsite/templates/mainwebsite/index.html:49
 msgid "Contact"
 msgstr "Contato"
-
-#: mainwebsite/templates/mainwebsite/contact.html:65
-#: mainwebsite/templates/mainwebsite/index.html:57
-msgid "Language:"
-msgstr "Língua:"
-
-#: mainwebsite/templates/mainwebsite/contact.html:69
-#: mainwebsite/templates/mainwebsite/index.html:61 pridexs/settings.py:138
-msgid "English"
-msgstr "English"
-
-#: mainwebsite/templates/mainwebsite/contact.html:75
-#: mainwebsite/templates/mainwebsite/index.html:67
-msgid "Português"
-msgstr "Português"
 
 #: mainwebsite/templates/mainwebsite/contact.html:86
 #, fuzzy
@@ -87,10 +115,6 @@ msgstr "Seus segredos"
 msgid "Send"
 msgstr "Enviar"
 
-#: mainwebsite/templates/mainwebsite/index.html:10
-msgid "Pridexs - Home"
-msgstr "Pridexs - Início"
-
 #: mainwebsite/templates/mainwebsite/index.html:75
 #, python-format
 msgid ""
@@ -111,8 +135,8 @@ msgid ""
 "Dublin, Ireland throug the Science Without Borders programme."
 msgstr ""
 "Atualmente estudando Ciência da Computação na UDESC - Santa Catarina, "
-"Brasil. Também estudei fora por um ano no Instituto de Tecnologia de "
-"Dublin em Dublin, Irlanda pelo programa Ciência sem Fronteiras."
+"Brasil. Também estudei fora por um ano no Instituto de Tecnologia de Dublin "
+"em Dublin, Irlanda pelo programa Ciência sem Fronteiras."
 
 #: mainwebsite/templates/mainwebsite/index.html:94
 #, python-format
