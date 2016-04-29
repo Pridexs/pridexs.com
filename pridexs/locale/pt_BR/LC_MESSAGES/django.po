@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-28 23:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: mainwebsite/templates/mainwebsite/contact.html:10
+msgid "Pridexs - Contact"
+msgstr "Pridexs - Contato"
+
+#: mainwebsite/templates/mainwebsite/contact.html:56
+#: mainwebsite/templates/mainwebsite/index.html:50
+msgid "Home"
+msgstr "Início"
+
+#: mainwebsite/templates/mainwebsite/contact.html:57
+#: mainwebsite/templates/mainwebsite/index.html:51
+msgid "Contact"
+msgstr "Contato"
+
+#: mainwebsite/templates/mainwebsite/contact.html:65
+#: mainwebsite/templates/mainwebsite/index.html:59
+msgid "Language:"
+msgstr "Língua:"
+
+#: mainwebsite/templates/mainwebsite/contact.html:66
+#: mainwebsite/templates/mainwebsite/index.html:60 pridexs/settings.py:135
+msgid "English"
+msgstr "English"
+
+#: mainwebsite/templates/mainwebsite/contact.html:67
+#: mainwebsite/templates/mainwebsite/index.html:61
+msgid "Português"
+msgstr "Português"
+
+#: mainwebsite/templates/mainwebsite/contact.html:76
+msgid "E-mail sent!"
+msgstr "Email enviado!"
+
+#: mainwebsite/templates/mainwebsite/contact.html:80
+msgid "Contact me!"
+msgstr "Contate-me!"
+
+#: mainwebsite/templates/mainwebsite/contact.html:88
+#: mainwebsite/templates/mainwebsite/contact.html:89
+msgid "Name"
+msgstr "Nome"
+
+#: mainwebsite/templates/mainwebsite/contact.html:93
+msgid "Email Address"
+msgstr "Endereço de email"
+
+#: mainwebsite/templates/mainwebsite/contact.html:94
+msgid "Email"
+msgstr "Email"
+
+#: mainwebsite/templates/mainwebsite/contact.html:98
+#: mainwebsite/templates/mainwebsite/contact.html:99
+msgid "Subject"
+msgstr "Assunto"
+
+#: mainwebsite/templates/mainwebsite/contact.html:103
+msgid "Your secrets"
+msgstr "Seus segredos"
+
+#: mainwebsite/templates/mainwebsite/contact.html:107
+msgid "Send"
+msgstr "Enviar"
+
+#: mainwebsite/templates/mainwebsite/index.html:10
+msgid "Pridexs - Home"
+msgstr "Pridexs - Início"
+
+#: mainwebsite/templates/mainwebsite/index.html:67
+#, python-format
+msgid ""
+"Hi! I'm Alexandre 'Pridexs' Maros. Computer Science student at %(udesc_url)s "
+"who likes to experiment with stuff."
+msgstr ""
+"Ola! Sou Alexandre 'Pridexs' Maros. Cientista da Computação na %(udesc_url)s "
+"que gosta de experimentar com coisas."
+
+#: mainwebsite/templates/mainwebsite/index.html:84
+msgid "About me"
+msgstr "Sobre mim"
+
+#: mainwebsite/templates/mainwebsite/index.html:85
+msgid ""
+"Currently studying Computer Science at UDESC - Santa Catarina, Brazil. I "
+"also studied abroad for one year at the Dublin Institute of Technology in "
+"Dublin, Ireland throug the Science Without Borders programme."
+msgstr ""
+"Atualmente estudando Ciência da Computação na UDESC - Santa Catarina, "
+"Brasil. Eu também estudei fora por um ano no Instituto de Tecnologia de "
+"Dublin em Dublin, Irlanda pelo programa Ciência sem Fronteiras."
+
+#: mainwebsite/templates/mainwebsite/index.html:86
+#, python-format
+msgid ""
+"I love Computer Science and I am always trying to create something new, "
+"understand a new technology or mess around with existing ones. I don't often "
+"publish the stuff that I do, but I am trying to change that, so check my "
+"%(github_url)s or my %(blog_url)s for some ~maybe~ interesting little "
+"projects. "
+msgstr ""
+"Eu amo Ciência da Computação e estou sempre tentando criar algo novo, "
+"entender alguma tecnologia nova ou brincar com tecnologias existentes. Nem "
+"sempre publico as coisas que faço, mas estou tentando mudar isso, então da "
+"uma conferida no meu %(github_url)s ou meu %(blog_url)s pra alguns pequenos "
+"projetos ~talvez~ interessantes."
+
+#: mainwebsite/templates/mainwebsite/index.html:88
+msgid "Curent Projects"
+msgstr "Projetos Atuais"
+
+#: mainwebsite/templates/mainwebsite/index.html:89
+msgid ""
+"Here are a few projects that I am working on. They may not have information "
+"about them (I will add info as soon as possible!)"
+msgstr ""
+"Aqui estão alguns projetos que estou atualmente trabalhando. Talvez eles não "
+"tenham muita informação (Adicionarei info assim que eu puder!)"
+
+#: mainwebsite/templates/mainwebsite/index.html:92
+msgid "Blog"
+msgstr "Blog"
+
+#: mainwebsite/templates/mainwebsite/index.html:93
+msgid "A place to write about whatever comes to my mind."
+msgstr "Um lugar para escrever sobre qualquer coisa que vier a minha mente."
+
+#: mainwebsite/templates/mainwebsite/index.html:95
+msgid "Visual Identity"
+msgstr "Identidade Visual"
+
+#: mainwebsite/templates/mainwebsite/index.html:96
+msgid "The visual identity guideline to pridexs.com and blog.pridexs.com"
+msgstr "Uma diretriz da identidade visual de pridexs.com e blog.pridexs.com"
+
+#: mainwebsite/templates/mainwebsite/index.html:100
+msgid "Extracting MiBand data"
+msgstr "Extraindo os dados da MiBand"
+
+#: mainwebsite/templates/mainwebsite/index.html:101
+msgid ""
+"A way to extract Xiaomi's MiBand data from the app to use it in data "
+"visualization, etc."
+msgstr ""
+"Uma maneira para extrair os dados da MiBand da Xiaomi pelo aplicativo para "
+"usar em visualização de dados, etc."
+
+#: mainwebsite/templates/mainwebsite/index.html:103
+msgid "Life Goal Website"
+msgstr "Site de Objetivos de Vida"
+
+#: mainwebsite/templates/mainwebsite/index.html:104
+msgid "A way to keep track of your goals. Not yet available."
+msgstr ""
+"Uma maneira de manter o controle de seus objetivos. Ainda não disponível."
+
+#: pridexs/settings.py:136
+msgid "Portuguese"
+msgstr "Português"
