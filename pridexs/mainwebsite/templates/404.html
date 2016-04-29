@@ -42,23 +42,6 @@
 <body>
 
   <div class="container">
-    <div class="language-selection">
-      <ul class="list-inline pull-right">
-        <li>{% trans "Language:" %}</li>
-        <li>
-            <form action="{% url 'set_language' %}" method="post">
-                {% csrf_token %}
-                <button class="btn btn-link" name="language" value="en">{% trans "English" %}</button>
-            </form>
-        </li>
-        <li>
-            <form action="{% url 'set_language' %}" method="post">
-                {% csrf_token %}
-                <button class="btn btn-link" name="language" value="pt-br">{% trans "Português" %}</button>
-            </form>
-        </li>
-      </ul>
-    </div>
 
     <div class="jumbotron">
       <p class="lead">{% trans "Woops :(" %}</p>
