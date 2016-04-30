@@ -88,6 +88,10 @@
       <div class="col-lg-12">
           <h3 class="error-msg">{% trans "Error sending your Email :(" %}</h3>
       </div>
+      {% elif not captcha_success %}
+      <div class="col-lg-12">
+          <h3 class="error-msg">{% trans "Are you a human?" %}</h3>
+      </div>
       {% endif %}
       <div class="col-lg-12">
         <h1>{% trans "Contact me!" %}</h1>
