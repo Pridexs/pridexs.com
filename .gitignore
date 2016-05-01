@@ -2,3 +2,8 @@ __pycache__/
 pridexsenv/
 /pridexs/static/
 pridexs.sock
+settings.py
+
+# Django production configuration file
+production.py
+
