@@ -16,6 +16,7 @@ from django.utils.translation import ugettext_lazy as _
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Secret key. Override in production.py
 SECRET_KEY = 'SOME_SECRET_KEY'
 
 DEBUG = True
@@ -132,5 +133,5 @@ LANGUAGES = [
     ('pt-br', _('Portuguese')),
 ]
 
-# NOCAPTCHA Secret Key. Override in Production
+# NOCAPTCHA Secret Key. Override in production.py
 NOCAPTCHA_SECRET_KEY = 'NO_CAPTCHA_SECRET_KEY'
