@@ -1,5 +1,5 @@
 # pridexs.com
-This is the repository my main website: [pridexs.com](https://pridexs.com)  
+This is the repository for my main website: [pridexs.com](https://pridexs.com)  
 
 # Description
 This website was developed/tested using:
