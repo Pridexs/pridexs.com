@@ -4,6 +4,6 @@ pridexsenv/
 pridexs.sock
 settings.py
 
-# Django production configuration file
+## Django production configuration file
 production.py
 
